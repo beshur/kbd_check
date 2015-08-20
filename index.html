@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Keyboard checker - @beshur</title>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container b_kbd_check">
+        <div class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Keyboard checker</a>
+            </div>
+        </div>
+
+        <div class="jumbotron">
+
+            <div class="description">
+                <p>It was noticed by me that on different keyboards I have very different feeling. Usually it results in type errors on bad keyboards.</p>
+                <p>The purpose of this test is to determine how well you can type on this specific keyboard blindfolded (without seeing what you actually type).</p>
+                <p>No data is saved.</p>
+            </div>
+
+            <h3>Type this:</h3>
+            <p class="lead check">Starter template with</p>
+
+            <div class="form">
+                <div class="form-group row">
+                    <div class="col-md-6 check_field">
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="col-md-6 revealed"></div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 check_field">
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="col-md-6 revealed"></div>
+                </div>
+                <div class="form-group row">
+                    <div class="col-md-6 check_field">
+                        <input type="password" class="form-control">
+                    </div>
+                    <div class="col-md-6 revealed"></div>
+                </div>
+
+                <div class="form-group">
+                    <span class="btn btn-success click_finish disabled">Reveal and compare</span>
+                    <span class="btn btn-default click_restart">Restart</span>
+                </div>
+            </div>
+        </div>
+
+        <p><a href="http://github.com/beshur">@beshur</a></p>
+    </div>
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://beshur.github.io/getpass/js/getpass.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

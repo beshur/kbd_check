@@ -1,0 +1,21 @@
+/* Latest compiled and minified CSS included as External Resource*/
+
+body {
+    margin: 10px;
+    background: #393939;
+}
+.b_kbd_check {
+}
+.b_kbd_check .check {
+	font-size: 44px;
+}
+.b_kbd_check .description {
+    font-size: 14px;
+    /*color: #666;*/
+}
+
+.b_kbd_check .form {}
+.b_kbd_check .form .form-group {}
+.b_kbd_check .form .revealed {
+    font-style: 16px;
+}
