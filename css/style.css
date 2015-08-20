@@ -16,6 +16,30 @@ body {
 
 .b_kbd_check .form {}
 .b_kbd_check .form .form-group {}
-.b_kbd_check .form .revealed {
-    font-style: 16px;
+.b_kbd_check .revealed {
+
+}
+.b_kbd_check .revealed h3 {
+	display: none;
+}
+
+.b_kbd_check .revealed > .in {
+
+}
+.b_kbd_check .revealed-list div {
+	height: 34px;
+	margin-bottom: 15px;
+
+	line-height: 34px;
+	vertical-align: middle;
+}
+
+.b_kbd_check .revealed-list div span {
+	padding: 4px;
+}
+.b_kbd_check .revealed-list div .correct {
+	background: #7CB97C;
+}
+.b_kbd_check .revealed-list div .incorrect {
+	background: #EF3E3E;
 }
